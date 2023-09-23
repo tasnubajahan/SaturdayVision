@@ -1,0 +1,16 @@
+package com.upskill.java_7;
+
+public class MultiThreadingRunable implements Runnable{
+
+		public void run(){
+			try{
+				System.out.println("Thread Number"+ Thread.currentThread().getId()+"is running");
+			}catch (Exception e){
+				System.out.println("Exception is caught");
+			}
+				}
+
+		
+	}
+
+
